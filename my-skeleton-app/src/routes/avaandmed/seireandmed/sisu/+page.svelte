@@ -419,7 +419,7 @@ $: numColumns = Math.max(...rows.map(row => row.values.length)) + 1;
         <div class="flex-1">
             <!-- Label and Toggle -->
             <div class="flex items-center justify-between">
-                <label class="block text-lg font-medium text-gray-700 mb-2">
+                <label class="block text-lg font-medium text-gray-700 mb-2" for="date-range-picker">
                     Vali soovitud ajavahemik
                 </label>
                 <div class="flex items-center text-sm mt-4">
